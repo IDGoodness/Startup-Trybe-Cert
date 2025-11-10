@@ -45,7 +45,7 @@ const Course1 = () => {
           className="flex flex-col justify-center items-center bg-white relative"
         >
           {/* <img src={watermark} alt="genes" className='absolute w-[1000px] -mt-52 h-[800px] opacity-30 z-0 ' /> */}
-          <div className="relative w-[1000px] h-[600px] m-10 shadow  flex">
+          <div className="relative w-[1000px] h-[600px] m-10  flex">
             <div className="flex flex-col mx-auto">
               <div className="flex text-center mx-auto mt-5 ">
                 <p className="flex flex-row ">
