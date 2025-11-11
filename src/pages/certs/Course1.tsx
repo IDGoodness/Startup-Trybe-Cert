@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { toPng } from "html-to-image";
-import logo1 from "../../assets/startuptribelogo1.png";
+import logo1 from "../../assets/startuptribelogo3.png";
 import logo2 from "../../assets/startuptribelogo2.png";
 import signature from "../../assets/signature.png";
 

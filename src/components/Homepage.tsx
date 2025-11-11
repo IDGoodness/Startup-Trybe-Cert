@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/startuptribelogo1.png";
+import logo from "../assets/startuptribelogo3.png";
 
 interface HomepageProps {
   navi: string;
