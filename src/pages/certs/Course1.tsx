@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { toPng } from "html-to-image";
 import logo1 from "../../assets/startuptribelogo3.png";
 import logo2 from "../../assets/startuptribelogo2.png";
+import logo3 from "../../assets/startuptribelogo1.png";
 import signature from "../../assets/signature.png";
 
 const Course1 = () => {
@@ -43,8 +44,8 @@ const Course1 = () => {
         <div
           className="flex flex-col justify-center items-center bg-white relative"
         >
-          {/* <img src={watermark} alt="genes" className='absolute w-[1000px] -mt-52 h-[800px] opacity-30 z-0 ' /> */}
-          <div ref={ref} className="relative bg-white w-[1000px] h-[600px] m-10 border border-blue-100 shadow-lg shadow-blue-100 flex overflow-hidden">
+          <img src={logo3} alt="genes" className='absolute w-[800px] h-[800px] opacity-10 z-10 ' />
+          <div ref={ref} className="relative bg-white w-[1000px] h-[600px] m-10 border shadow-lg shadow-blue-100 flex overflow-hidden">
             <div className="flex flex-col mx-auto z-10 ">
               <div className="flex text-center mx-auto mt-5 ">
                 <p className="flex flex-row ">
@@ -109,7 +110,7 @@ const Course1 = () => {
               </div> */}
             </div>
 
-            <div>
+            {/* <div>
               <img
                 src={logo1}
                 alt="border"
@@ -130,7 +131,7 @@ const Course1 = () => {
                 alt="border"
                 className="w-[1000px] h-auto absolute -bottom-[700px] -right-[750px] z-0"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
