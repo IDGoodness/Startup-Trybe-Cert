@@ -41,12 +41,11 @@ const Course1 = () => {
     <>
       <div className="min-w-[1000px] flex justify-center items-center min-h-screen">
         <div
-          ref={ref}
           className="flex flex-col justify-center items-center bg-white relative"
         >
           {/* <img src={watermark} alt="genes" className='absolute w-[1000px] -mt-52 h-[800px] opacity-30 z-0 ' /> */}
-          <div className="relative w-[1000px] h-[600px] m-10  flex">
-            <div className="flex flex-col mx-auto">
+          <div ref={ref} className="relative bg-white w-[1000px] h-[600px] m-10 border border-blue-100 shadow-lg shadow-blue-100 flex overflow-hidden">
+            <div className="flex flex-col mx-auto z-10 ">
               <div className="flex text-center mx-auto mt-5 ">
                 <p className="flex flex-row ">
                   <img src={logo1} alt="logo" className="w-[60px]" />
@@ -88,7 +87,6 @@ const Course1 = () => {
                   </p>
                 </div>
 
-
                 <div className="-mt-5">
                   <p className="border-b border-black w-52">
                     <img
@@ -110,13 +108,36 @@ const Course1 = () => {
                   <img src={award1} alt="award" />
               </div> */}
             </div>
+
+            <div>
+              <img
+                src={logo1}
+                alt="border"
+                className="w-[1000px] h-auto absolute -top-[700px] -left-[750px] z-0"
+              />
+              <img
+                src={logo1}
+                alt="border"
+                className="w-[1000px] h-auto absolute -bottom-[700px] -left-[750px] z-0"
+              />
+              <img
+                src={logo1}
+                alt="border"
+                className="w-[1000px] h-auto absolute -top-[700px] -right-[750px] z-0"
+              />
+              <img
+                src={logo1}
+                alt="border"
+                className="w-[1000px] h-auto absolute -bottom-[700px] -right-[750px] z-0"
+              />
+            </div>
           </div>
         </div>
       </div>
 
       <div className="flex justify-center -mt-9">
         <button
-          className="bg-blue-600 p-2 rounded-xl hover:bg-bluex-700 text-white z-10"
+          className="bg-blue-600 p-2 rounded-xl hover:bg-bluex-700 shadow-lg shadow-blue-100 cursor-pointer text-white z-10"
           onClick={onButtonClick}
         >
           Download Certificate
