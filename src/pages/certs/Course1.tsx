@@ -71,8 +71,8 @@ const Course1 = () => {
                 </p>
                 <p className="mx-28 pt-5 text-md ">
                   for successfully participating in the fully funded masterclass
-                  on: CRITICAL AND INNOVATIVE THINKING FOR PERSONAL AND
-                  ORGANISATIONAL GROWTH. This program provided participants with
+                  on: <b>CRITICAL AND INNOVATIVE THINKING FOR PERSONAL AND
+                  ORGANISATIONAL GROWTH.</b> This program provided participants with
                   valuable knowledge and insight into applying critical and
                   innovative thinking skills to enhance problem-solving,
                   creativity, decision-making, and overall personal and
